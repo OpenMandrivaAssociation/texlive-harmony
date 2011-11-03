@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/harmony
+# catalog-date 2009-06-25 00:34:53 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-harmony
 Version:	20090625
 Release:	1
@@ -40,6 +46,7 @@ lcirclew10 and the font musix13 from musixtex.
 %doc %{_texmfdistdir}/doc/latex/harmony/README
 %doc %{_texmfdistdir}/doc/latex/harmony/harmony.pdf
 %doc %{_texmfdistdir}/doc/latex/harmony/harmony.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ lcirclew10 and the font musix13 from musixtex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
