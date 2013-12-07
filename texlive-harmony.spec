@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-harmony
 Version:	20090625
-Release:	5
+Release:	6
 Summary:	Typeset harmony symbols, etc., for musicology
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/harmony
