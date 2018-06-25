@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-harmony
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Typeset harmony symbols, etc., for musicology
 Group:		Publishing
