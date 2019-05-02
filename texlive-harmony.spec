@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-harmony
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Typeset harmony symbols, etc., for musicology
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/harmony
