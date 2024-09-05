@@ -1,6 +1,6 @@
 Name:		texlive-harmony
-Version:	15878
-Release:	2
+Version:	72045
+Release:	1
 Summary:	Typeset harmony symbols, etc., for musicology
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/harmony
